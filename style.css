@@ -10,8 +10,10 @@ body{
 .footer{
     display: flex;
     font-family: 'Hind Madurai', sans-serif;
-    font-size: x-small;
-    justify-content: space-between;
+    font-size: small;
+    justify-content: space-evenly;
+    margin-top: 2px;
+    /* how do I get these to not be underlined and when hover over expand? */
 }
 
 .header-container{
@@ -29,6 +31,8 @@ body{
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
 }
 
 .image{
@@ -45,34 +49,79 @@ body{
 
 .image-container{
 display: flex;
-
+margin-top: 40px;
+margin-bottom: 50px;
+justify-content: space-evenly;
 }
 
 .marquee-image{
     object-fit: cover;
     height: 250px;
-    margin-right: 8px;
+    margin-right: 5px;
+    border: 1px solid #8a817c;
+    padding: 5px;
+    box-shadow: 5px 8px 12px #8a817c;
 }
+
+
+/* Is there a way to set it so it only shows two or three pics on a mobile device?
+and put a small amount of space between the pics? */
 
 @media only screen and (max-width: 500px) {
 .image-container{
     flex-direction: column;
     align-items: center;
+    /* justify-content: space-evenly- see next com; */
 }
+
 .marquee-image{
-    margin-bottom: 8px;
+    margin-bottom: 5px;
+    /* justify-content: space-evenly; didn't work. I want it to have space
+     between the pics on a mobile device*/
 }
+
+/* How do I get the word "fun" centered below educational on mobile device? */
+.video-label-3{
+    display:block;
+}
+
+/* not displaying font size correctly on mobile device */
+.title{ 
+    font-size: xx-large;  
+}
+
+.section{
+    /* I want the fair logo smaller on mobile device */
+}
+}
+
+
+.paragraph{
+    font-family: 'Hind Madurai', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 30px;
 }
 
 .section{
 display: flex;
 align-items: center;
 justify-content: center;
+border-top: 3px solid black;
+border-bottom: 3px solid black;
+padding-top: 10px;
+padding-bottom: 10px;
 }
  
 .title{
     font-family: 'Anton', sans-serif;
     font-size: xx-large;
+    /* xx-large font works on some mobile devices but not on others */
+    /* font-size: 45px;  too big when mobile */
     text-align: center;
 }
 
@@ -119,6 +168,7 @@ justify-content: center;
     display: flex;
     padding-top: 10px;
     padding-bottom: 20px;
+    margin-top: 30px;
 }
 
 .video-section-2{

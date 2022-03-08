@@ -13,8 +13,6 @@
         rel="stylesheet">
 </head>
 
-<!-- what if I want the pictures to stack on the top instead of scrolling through? -->
-
 <body>
     <header class="header">
         <div class="header-container">
@@ -22,32 +20,56 @@
             <div class="header-container-2">
                 <span class="title">The Mad Sc<i class="fa-solid fa-flask fa-1x"></i>entist Show</span>
 
-                <p class="description">Join us at the <a target="_blank" href="http://washcofair.net/">Washington County
-                        Fair</a>, April 20th-23rd, 2022
+                <p class="description"><a target="_blank" href="http://washcofair.net/">Washington County
+                        Fair</a> <strong> April 20th-23rd, 2022</strong>
                 </p>
             </div>
         </div>
 
     </header>
+    <main>
+        <div class="image-container">
+            <img class="marquee-image" src="../images/fire-balloon.png" width="250" height="auto" alt="Fire balloon" />
+            <img class="marquee-image" src="../images/science-fair-2.png" width="250" height="auto"
+                alt="Science at county fair" />
+            <img class="marquee-image" src="../images/liquid-nitrogen.png" width="250" height="auto"
+                alt="Liquid nitrogen cloud" />
+            <img class="marquee-image" src="../images/science-hand-fire.png" width="250" height="auto"
+                alt="Science hand fire" />
+        </div>
 
-    <div class="image-container">
-        <img class="marquee-image" src="../images/fire-balloon.png" width="250" height="auto" alt="Fire balloon" />
-        <img class="marquee-image" src="../images/science-fair-2.png" width="250" height="auto"
-            alt="Science at county fair" />
-    </div>
+        <!-- <div class="paragraph-content" do I need this to make look how I want? -->
+        <p class="paragraph">Hello, I'm Reed James. I'm a 7th grade science teacher and love to make learning
+            science fun. I like to provide learning expriences for my students that are both exciting and educational. I
+            look forward to teaching and entertaining you and your family at the Washington County Fair!
+        </p>
+        <!-- </div> -->
 
-    <marquee behavior="slide" direction="left">
-        <!-- make the images inside a flex box and animate later? -->
-        <img class="marquee-image" src="../images/fire-balloon.png" width="250" height="auto" alt="Fire balloon" />
-        <img class="marquee-image" src="../images/science-fair-2.png" width="250" height="auto"
-            alt="Science at county fair" />
-    </marquee>
 
-    <p>Hello, I'm Reed James. I'm a science teacher who loves to make learning
-        science fun. I like to provide learning expriences for my students and those
-        who attend the county fair that are both exciting and educational. I look forward to teaching and entertaining
-        you and your family at the Washington County Fair!
-    </p>
+        <section class="section">
+            <div>
+                <a target="_blank" href="http://washcofair.net/">
+                    <img width="300" height="80" src="../images/fair-logo-contest-2019-winner-1024x522.png"
+                        alt="Fair Logo" />
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- I need to put in the nav bar at bottom that takes you back to the home page -->
+    <footer class="footer">
+        <a href="mailto:reedo731@gmail.com" target="_blank">
+            <p>Email us</p>
+        </a>
+        <p>&copy; 2022 Kamie Jo James</p>
+        <a href="pages/about.html" target="_blank">
+            <p>About us</p>
+        </a>
+
+    </footer>
+
+
 </body>
 
 </html>
