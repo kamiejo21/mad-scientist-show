@@ -11,7 +11,7 @@ body{
     display: flex;
     font-family: 'Hind Madurai', sans-serif;
     font-size: x-small;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .header-container{
@@ -61,7 +61,6 @@ display: flex;
 }
 .marquee-image{
     margin-bottom: 8px;
-
 }
 }
 
