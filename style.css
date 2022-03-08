@@ -35,6 +35,11 @@ body{
     border-bottom: 3px solid black;
 }
 
+.iframe{
+    border: 1px solid black;
+    padding: 5px;
+    
+}
 .image{
     max-width: 50%;
     height: auto;
@@ -107,12 +112,14 @@ and put a small amount of space between the pics? */
     padding-bottom: 30px;
 }
 
-.section{
+.section-footer{
 display: flex;
 align-items: center;
 justify-content: center;
 border-top: 3px solid black;
 border-bottom: 3px solid black;
+border-width: 100%;
+/* did my border width fill screen on mobile and laptop? */
 padding-top: 10px;
 padding-bottom: 10px;
 }
@@ -127,41 +134,52 @@ padding-bottom: 10px;
 
 .video-label{
     background-color: #a2e3f1;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Notable', sans-serif;
     font-size: 30px;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     width: 420px;
     justify-content: center;
     border-radius: 50%;
+    border: 1px solid black;
     padding-bottom: 20px;
+    padding: 5px;
+    box-shadow: 5px 8px 12px #8a817c;
 }
 
 .video-label-2{
     background-color: #a2e3f1;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Notable', sans-serif;
     font-size: 30px;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     width: 420px;
     justify-content: center;
     border-radius: 50%;
+    border: 1px solid black;
     padding-bottom: 20px;
+    padding-bottom: 20px;
+    padding: 5px;
+    box-shadow: 5px 8px 12px #8a817c;
 }
 
 .video-label-3{
     background-color: #a2e3f1;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Notable', sans-serif;
     font-size: 30px;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     width: 420px;
     justify-content: center;
     border-radius: 50%;
+    border: 1px solid black;
     padding-bottom: 20px;
+    padding-bottom: 20px;
+    padding: 5px;
+    box-shadow: 5px 8px 12px #8a817c;
 }
 
 .video-section{
