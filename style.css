@@ -87,7 +87,8 @@ a:hover{
 
 .marquee-image{
     object-fit: cover;
-    height: 250px;
+    width: 300px; 
+    height: 310px;
     margin-right: 5px;
     border: 1px solid #8a817c;
     padding: 5px;
