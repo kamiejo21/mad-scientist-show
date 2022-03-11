@@ -3,7 +3,7 @@ body{
 }
 
 a:hover{
-    letter-spacing: 1px;
+    letter-spacing: 0.7px;
     transition: all .4s ease;
 }
 
@@ -26,7 +26,9 @@ a:hover{
 }
 
 .footer-text{
+    font-family: 'Hind Madurai', sans-serif;
     font-size: small;
+    font-weight: bolder;
     color: black;
     text-decoration: none;
 }
@@ -49,7 +51,9 @@ a:hover{
 }
 
 .header-description{
+    font-family: 'Hind Madurai', sans-serif;
     font-size: 2vw;
+    font-weight: bolder;
     text-align: center;
 }
 
@@ -92,6 +96,7 @@ a:hover{
 
 .paragraph{
     font-family: 'Hind Madurai', sans-serif;
+    font-size: 2vw;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -99,6 +104,22 @@ a:hover{
     padding-left: 90px;
     padding-right: 90px;
     padding-bottom: 30px;
+}
+
+.paragraph-2{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 2vw;
+}
+
+.paragraph-3{
+    font-family: 'Anton', sans-serif;
+    font-size: 2.2vw;
+    font-weight: bold;
+}
+
+.paragraph-4{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.5vw;
 }
 
 .video-label{
