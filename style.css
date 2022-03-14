@@ -110,17 +110,20 @@ a:hover{
 .paragraph-2{
     font-family: 'Hind Madurai', sans-serif;
     font-size: 2vw;
+    padding-left: 90px;
 }
 
 .paragraph-3{
     font-family: 'Anton', sans-serif;
     font-size: 2.2vw;
     font-weight: bold;
+    padding-left: 30px; 
 }
 
 .paragraph-4{
     font-family: 'Hind Madurai', sans-serif;
     font-size: 1.5vw;
+    padding-left: 30px;
 }
 
 .video-label{
@@ -176,6 +179,29 @@ a:hover{
         margin-bottom: 5px;
     }
     
+    .paragraph{
+        font-size: 7vw;
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+
+    .paragraph-2{
+        font-size: 5.5vw;
+        padding-left: 20px;
+        padding-right: 15px;      
+    }
+
+    .paragraph-3{
+        font-size: 7vw;
+        padding-left: 15px;       
+    }
+
+    .paragraph-4{
+        font-size: 4vw;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .video-label{
         font-size: 0.58em;
         text-align: center;
