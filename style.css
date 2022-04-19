@@ -126,6 +126,12 @@ a:hover{
     padding-left: 30px;
 }
 
+.paragraph-5{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 2vw;
+    padding-left: 30px; 
+}
+
 .video-label{
     background-color: #a2e3f1;
     font-family: 'Notable', sans-serif;
@@ -200,6 +206,11 @@ a:hover{
         font-size: 4vw;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .paragraph-5{
+        font-size: 5.5vw;
+        padding-left: 15px; 
     }
 
     .video-label{
