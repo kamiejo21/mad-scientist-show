@@ -1,0 +1,115 @@
+<div class="icons">
+    <i class="fa-solid fa-atom"></i>
+    <i class="fa-solid fa-fire"></i>
+    <i class="fa-solid fa-microscope"></i>
+    <i class="fa-solid fa-brain"></i>
+</div>
+
+#1EFEFE
+
+What I used first #a2e3f1
+
+.icons{
+display: flex;
+font-family: 'Hind Madurai', sans-serif;
+justify-content: center;
+/* How to put small amount of space between icons and make them bigger? */
+}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fIiIVwVLbdA" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+
+<marquee behavior="slide" direction="left">
+    <!-- make the images inside a flex box and animate later? -->
+    <img class="marquee-image" src="../images/fire-balloon.png" width="250" height="auto" alt="Fire balloon" />
+    <img class="marquee-image" src="../images/science-fair-2.png" width="250" height="auto"
+        alt="Science at county fair" />
+    <img class="marquee-image" src="../images/science-hand-fire.png" width="250" height="auto"
+        alt="Science hand fire" />
+    <img class="marquee-image" src="../images/liquid-nitrogen.png" width="250" height="auto"
+        alt="Liquid nitrogen cloud" />
+</marquee>
+
+box-shadow: 5px 10px 18px #8a817c;
+
+padding: 5px;
+
+video section-
+padding-top: 10px;
+padding-bottom: 20px;
+margin-top: 30px;
+
+Should I use this for .iframe instead?-
+border: 1px solid #8a817c;
+padding: 5px;
+box-shadow: 5px 8px 12px #8a817c;
+
+OR- border: 10px solid black;
+padding: 1px;
+
+Use for video-label instead?-
+border: 1px solid black;
+margin-bottom: 20px;
+box-shadow: 5px 8px 12px #8a817c;
+
+footer top/bottom borders-
+border-top: 3px solid black;
+border-bottom: 3px solid black;
+
+change opacity:
+background-color: rgba(45, 45, 45,0.1)
+
+
+.video-label-2{
+background-color: #a2e3f1;
+font-family: 'Notable', sans-serif;
+font-size: 30px;
+color: black;
+display: flex;
+align-items: center;
+width: 420px;
+justify-content: center;
+border-radius: 50%;
+border: 2px solid black;
+padding-bottom: 20px;
+}
+
+.video-label-3{
+background-color: #a2e3f1;
+font-family: 'Notable', sans-serif;
+font-size: 30px;
+color: black;
+display: flex;
+align-items: center;
+width: 420px;
+justify-content: center;
+border-radius: 50%;
+border: 2px solid black;
+padding-bottom: 20px;
+}
+
+.video-section-3{
+display: flex;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+<p>&copy; 2022 Kamie Jo James</p>
+
+height: 250px;
+
+<iframe class="iframe" src="https://www.youtube.com/embed/_CvkfBYKBTU" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+
+
+                /* I changed it to this and it worked well...just didn't have Youtubes stuff */
+                <iframe class="iframe" src="https://www.youtube.com/embed/29V3Gv4wda4" title="YouTube video player"
+                allowfullscreen>
+            </iframe>
+
+            https://youtube.com/shorts/_CvkfBYKBTU
