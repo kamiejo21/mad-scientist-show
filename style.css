@@ -160,8 +160,24 @@ a:hover{
     margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 540px) 
+@media screen and (max-width: 540px) 
 {   
+    .footer-text{
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: medium;
+        font-weight: bolder;
+        color: black;
+        text-decoration: none;
+    }
+
+    .header-container{
+        font-size: 8vw;
+    }
+
+    .header-container-2{
+        font-size: 8vw;
+    }
+
     .header-description{
         font-size: 3vw;
     }
